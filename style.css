@@ -1,0 +1,110 @@
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  hsl(47, 88%, 63%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* apply gredeient there */
+.blog_preview{
+    background-color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px black;
+    width: 390px;
+    max-width: 420px;
+    min-width: 380px;
+}
+
+.blog_preview .img_div{
+    max-width: 100%;
+}
+.blog_preview .img_div img{
+    width: 100%;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.loading{
+    /* background-color: yellow; */
+    background-color:  hsl(47, 88%, 63%);
+    width: fit-content;
+    font-weight: 800;
+    margin: 10px 0;
+    padding: 3px 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    cursor: pointer;
+}
+
+.date{
+    margin: 10px 0;
+    padding: 3px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    opacity: .8;
+}
+
+.title{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+.title:hover{
+    /*color: ;
+    */color:  hsl(47, 88%, 63%);
+    cursor: pointer;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.blog_info{
+    padding: 0 10px;
+    margin: 10px 0;
+    line-height: 1.6;
+    font-weight: 400;
+    opacity: .7;
+}
+
+.img_profile{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.img_profile img{
+    width: 50px;
+    height: 50px;
+}
+
+.img_profile span{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 8px;
+}
+
+
